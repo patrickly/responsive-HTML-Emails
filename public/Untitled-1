@@ -27,3 +27,18 @@ style="padding: 25px 0 75px; background: white;">
 </table>
 
 
+
+        <!-- start of icon table -->
+    <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
+    style="">
+    <td>
+        <img src="/img/retina_icon.png">
+    </td>
+    <td style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
+    'Lucida Grande', sans-serif; color: #333333; padding: 0 0 0 15px; font-weight: 600;
+    text-transform: uppercase; font-size: 14px;
+    ">
+        Retina Ready
+    </td>
+    </table> 
+    <!-- end of icon table  -->
