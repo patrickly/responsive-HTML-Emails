@@ -8,6 +8,38 @@
   <!-- <link rel="stylesheet" href="/css/styles.css"> -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
   <style>
+
+    /* desktop  */
+    @media only screen and (min-width: 960px) {
+      .container {
+        width: 960px;
+      }
+
+      .header-left {
+        padding: 37px 15px 70px 15px !important;
+      }
+    }
+    /* midsizes  */
+    @media only screen and (max-width: 960px) {
+      .container {
+        width: 600px;
+      }
+    }
+    /* mobile  */
+    @media only screen and (max-width: 600px) {
+      .container {
+        width: 100%;
+      }
+      .header-left {
+        width: 100%;
+      }
+      .header-right {
+        width: 100%;
+      }
+      /* img {
+        width: 100%;
+      } */
+    }
   </style>
 </head>
 
@@ -54,7 +86,7 @@
                 <tr>
                   <td style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
                            'Lucida Grande', sans-serif; color: #7d7d7d;">
-                    <table class="container" width="100%" align="center" cellspacing="0" cellpadding="0" border="0"
+                    <table class="menu-table" width="100%" align="center" cellspacing="0" cellpadding="0" border="0"
                       style="padding: 20px;">
                       <tr>
                         <td align="center">
